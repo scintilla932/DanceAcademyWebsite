@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/static/img/logomain.png" alt="Logo")
+          | ADA
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class Info]
+        li #[a(href="/") Contact Us]
+
+    section#introSection
+      div Welcome to Anjali's Dance Academy
+      div.small Eat  Sleep  Dance  Repeat
+
+    section#missionSection
+      h2 Our Mission
+      div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img
+            img(src="/static/img/card1.png", alt="picture1")
+          div.card-content 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      div.card
+        h3 Dance the way you like
+        div.card-box
+          div.card-img
+            img(src="/static/img/card2.png", alt="picture2")
+          div.card-content 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      div.card
+        h3 Expert Teaching
+        div.card-box
+          div.card-img
+            img(src="/static/img/card3.png", alt="picture3")
+          div.card-content 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+    section#sponserSection
+      h2 Our Sponsers
+      div#sponsors
+        img(src="/static/img/logo1.png", alt="Sponsor image", class="spimage")
+        img(src="/static/img/logo2.png", alt="Sponsor image", class="spimage")
+        img(src="/static/img/logo3.png", alt="Sponsor image", class="spimage")
+        img(src="/static/img/logo4.png", alt="Sponsor image", class="spimage")
+
+    footer#footer
+      |   Copyright © 2020 AnjaliDanceAcademy.com.
+      |   All Rights Reserved.
+
+    script
+      include ../static/index.js

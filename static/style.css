@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Lobster&family=Pacifico&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    margin: 0px 14px;
+    color: white;
+    align-items: center;
+    font-size: 23px;
+    margin-right: 288px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #de4242;
+    padding: 13px 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: snow;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 7px 20px;
+}
+
+#navbar li a:hover{
+    color: black;
+    font-size: 25px;
+    padding: 13px 20px;
+    border-bottom: 4px solid black;
+}
+
+
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 35px;
+    padding-bottom: 40px;
+    background: center/cover no-repeat url("/static/img/Bg.jpg");
+    height: 425px;
+}
+
+#introSection div.small{
+    font-size: 27px;
+    padding: 5px;
+    font-family:'Bebas Neue', cursive ;
+}
+
+#sponserSection{
+    height: 300px;
+    background-color: rgb(253, 101, 101); 
+}
+
+#sponserSection h2{
+    font-family:'Bebas Neue', cursive ;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+
+#missionSection{
+    height: 326px;
+    width: 75%;
+    margin: auto;
+}
+#missionSection h2{
+    font-family:'Bebas Neue', cursive ;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+
+
+.card{
+    display: inline-block;
+    border: 2px solid #de4242;
+    border-radius: 7px;
+    width: 29%;
+    margin: 23px 19px;
+    height: 209px;
+    box-shadow: -2px 1px 10px 2px #de4242;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 100px;
+    margin: 5px 9px;
+    padding: 0px 14px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 2px;
+    font-family: 'Francois One', sans-serif;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+
+#sponsors{
+    height: 195px;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.spimage{
+    height: 72%;
+    margin: 20px;
+}
+
+#footer{
+    height: 60px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Francois One', sans-serif;
+}
